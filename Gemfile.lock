@@ -28,6 +28,7 @@ GEM
       activemodel (= 3.0.9)
       activesupport (= 3.0.9)
     activesupport (3.0.9)
+    annotate (2.4.0)
     arel (2.0.10)
     builder (2.1.2)
     capybara (1.0.0)
@@ -123,6 +124,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  annotate
   capybara
   cucumber-rails
   rails (= 3.0.9)
