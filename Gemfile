@@ -7,6 +7,8 @@ gem 'rails', '3.0.9'
 
 gem 'sqlite3'
 
+gem 'gravatar_image_tag'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -48,4 +50,5 @@ group :test do
   gem 'capybara'                # Integrations testing for Rack Applications (Rails)
   gem 'rspec-rails'                # BDD testing framework
   gem 'webrat'                       # Acceptance testing framework
+	gem 'factory_girl_rails'
 end
